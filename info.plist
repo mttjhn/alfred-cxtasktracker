@@ -23,7 +23,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Matthew Johnson</string>
 	<key>description</key>
 	<string>Searches by task number and opens the appropriate page</string>
 	<key>disabled</key>
@@ -119,6 +119,6 @@
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>mttjhn.com</string>
 </dict>
 </plist>
