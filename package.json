@@ -1,0 +1,40 @@
+{
+  "name": "alfred-cxtasktracker",
+  "version": "0.0.0",
+  "description": "An Alfred workflow for quickly accessing tasks in the CXProd TaskTracker system",
+  "license": "MIT",
+  "repository": "mttjhn/alfred-cxtasktracker",
+  "author": {
+    "name": "Matthew Johnson",
+    "email": "matthew@mcjohnsons.com",
+    "url": "mttjhn.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfred-link": "^0.2.1",
+    "alfy": "^0.6.0",
+    "oracledb": "^2.2.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
