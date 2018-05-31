@@ -7,7 +7,7 @@
 
 Download the alfred workflow here: [alfred-cxtasktracker](https://github.com/mttjhn/alfred-cxtasktracker/raw/master/alfred-cxtasktracker.alfredworkflow)
 
-This workflow also requires that you have a webservice set up on your local computer to serve up information for the appropriate tasks. See this repo: <TBD> to get that working.
+This workflow also requires that you have a webservice set up on your local computer to serve up information for the appropriate tasks. To set up the webservice, take a look at my [CXProdTools](https://github.com/mttjhn/CXProdTools) repo. This workflow expects that the webservice is set up on the local host using a hosts file alias of `cxprodtools.local`.
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
